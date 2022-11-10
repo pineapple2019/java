@@ -18,6 +18,7 @@ public class ThreadPoolDemo {
         service.shutdown();
     }
 }
+//稍微的修改
 class MyCallable implements Callable{
 
     @Override
