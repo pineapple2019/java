@@ -9,7 +9,7 @@ public class ThreadPoolDemo {
     public static void main(String[] args) {
         //创建线程池对象
         ExecutorService service = Executors.newFixedThreadPool(2);
-        //创建Callable对象
+        //创建Callable对象，这是一个任务。
         MyCallable c = new MyCallable();
         //从线程池中获取线程对象，然后调用MyRunnable中的run()
         service.submit(c);
