@@ -1,3 +1,5 @@
+package 格式化;
+
 import java.text.MessageFormat;
 import java.util.Date;
 
