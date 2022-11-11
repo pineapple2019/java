@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contact-list>
+    <contact id="001" name="eric">
+        <name>张三</name>
+        <gender>男</gender>
+        <phone>134001114</phone>
+        <email>zhangsan@qq.com</email>
+        <address>成都</address>
+    </contact>
+    <contact id="002">
+        <name>李四</name>
+        <gender>男</gender>
+        <phone>134001115</phone>
+        <email>lisi@qq.com</email>
+        <address>广州</address>
+    </contact>
+    <contact id="003">
+        <name>王五</name>
+        <gender>男</gender>
+        <phone>134001116</phone>
+        <email>wangwu@qq.com</email>
+        <address>上海</address>
+    </contact>
+</contact-list>

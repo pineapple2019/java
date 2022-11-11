@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<families>
+    <family>
+        <person>
+            <name>父亲</name>
+            <age>36</age>
+        </person>
+        <person>
+            <name>母亲</name>
+            <age>35</age>
+        </person>
+    </family>
+    <family>
+        <person>
+            <name>父亲</name>
+            <age>36</age>
+        </person>
+        <person>
+            <name>母亲</name>
+            <age>35</age>
+        </person>
+    </family>
+</families>
