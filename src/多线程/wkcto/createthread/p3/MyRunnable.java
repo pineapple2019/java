@@ -1,4 +1,5 @@
 package 多线程.wkcto.createthread.p3;
+
 /**
  * 当线程类已经有父类了,就不能用继承 Thread 类的形式创建线程,可以使用实现 Runnable
  * 接口的形式

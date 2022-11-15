@@ -10,15 +10,15 @@ public class Escape {
         for(int num=1;num<=10;num++){
             sum=sum+num;
             if(sum>20){
-                System.out.println("Ìø³öÑ­»·ËùÔÚµÄ·½·¨");
-                return sum=100;//×÷ÓÃ£ºÖ±½Ó½áÊø¸Ãº¯Êı£¬·µ»Ø100;
+                System.out.println("è·³å‡ºå¾ªç¯æ‰€åœ¨çš„æ–¹æ³•");
+                return sum=100;//ä½œç”¨ï¼šç›´æ¥ç»“æŸè¯¥å‡½æ•°ï¼Œè¿”å›100;
             }
             System.out.println(sum);
         }
-        System.out.println("½áÊø£º"+sum);
+        System.out.println("ç»“æŸï¼š"+sum);
         return 10;
     }
     public static void NextTest(){
-        System.out.println("ÒÑ½áÊøÉÏÃæ·½·¨");
+        System.out.println("å·²ç»“æŸä¸Šé¢æ–¹æ³•");
     }
 }

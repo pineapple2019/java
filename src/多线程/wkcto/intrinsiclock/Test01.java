@@ -10,8 +10,11 @@ package 多线程.wkcto.intrinsiclock;
 
 public class Test01 {
     public static void main(String[] args) {
-        final Test01 obj = new Test01();
-        //创建两个线程。调用mm方法
+
+        Test01 obj = new Test01();
+
+        //创建两个线程并开启线程。调用mm方法，这是个匿名对象，定义子类，和创建子类对象，由一个格式一次完成
+
         new Thread(new Runnable() {
             @Override
             public void run() {

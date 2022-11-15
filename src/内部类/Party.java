@@ -1,12 +1,16 @@
 package 内部类;
 
-
 import org.junit.Test;
+//外部类，聚会
+public class Party {
+    // 吹气球方法
+    public void puffBall(){
+        String a ="吹气球方法里面的局部变量";
 
-public class Party {//外部类，聚会
-    public void puffBall(){// 吹气球方法
-        class Ball {// 内部类，气球
+        // 内部类，气球，这是个局部内部类，因为位置是和局部变量一样的
+        class Ball {
             public void puff(){
+
                 System.out.println("气球膨胀了");
             }
         }

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/src/股票代码/bag/Escape.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/Calculate.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/Jiedian.java" charset="GBK" />
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/多线程/demo01/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/股票代码/bag/Escape.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/Calculate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/Jiedian.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/LinkList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/Stock.java" charset="UTF-16" />
     <file url="file://$PROJECT_DIR$/src/股票代码/beforeDream/StockTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/股票代码/dream05/dream5.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/股票代码/dream0519/dream4/dream03.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/重新/bugTest.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

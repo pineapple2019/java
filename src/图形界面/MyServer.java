@@ -1,3 +1,5 @@
+//package 图形界面;
+//
 //import org.dom4j.Document;
 //import org.dom4j.DocumentHelper;
 //import org.dom4j.io.OutputFormat;
@@ -9,25 +11,16 @@
 //import java.net.Socket;
 //import java.text.MessageFormat;
 //
-///**
-// * Created with IntelliJ IDEA.
-// *
-// * @Author: 从南到北
-// * @Date: 12/13/2021/15:40
-// * @Description:
-// *
-// *
-// */
+//
 //public class MyServer {
+//
 //    private static String[] strList;
 //    private static StringBuilder stringBuilder = new StringBuilder();
-////    private static String filePath = "src/student.owl";
-////    private static String filePath = "SocketXml/src/student.owl";
-//    private static String filePath = "D:/ProtegeModule/student.owl";
-//
+//    private static String filePath = "src/student.owl";
 //    private static String preFinalString;
 //    private static boolean loadInit = true;
 //    private static String readLine;
+//
 //
 //    public static void main(String[] args) throws IOException {
 //        ServerSocket server = new ServerSocket(10009);
@@ -40,15 +33,25 @@
 //            //System.out.println(readLine);
 //            out.println("Server received  " + readLine);
 //            strList = readLine.split("\\s+");
+//
+//            //  \\s是空格
+//
+//
 //            for (int i = 0; i < strList.length; i++) {
 //                System.out.println(strList[i]);
 //            }
+//
+//
+//
 //            MyServer myServer = new MyServer();
+//
 //            try {
 //                myServer.stringToXml();
+//
 //                if (loadInit) {
 //                    loadInit = false;
 //                }
+//
 //            } catch (ClassNotFoundException e) {
 //                e.printStackTrace();
 //            } catch (NoSuchMethodException e) {
@@ -238,6 +241,7 @@
 //    /**
 //     * 把数据写入到xml,每次写入之前要加上后缀 </Ontology>
 //     */
+//
 //    private void writeToXml() {
 //        preFinalString = stringBuilder.toString();
 //        String finalString = preFinalString.concat("</Ontology>");
@@ -260,5 +264,4 @@
 //        }
 //
 //    }
-//
 //}

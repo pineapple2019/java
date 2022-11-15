@@ -5,9 +5,11 @@ package 多线程.wkcto.createthread.p1;
  */
 public class Test {
     public static void main(String[] args) {
+
         System.out.println("JVM 启动 main 线程,main 线程执行 main 方法");
         //3)创建子线程对象
-        MyThread thread = new MyThread();
+        Thread thread = new MyThread();
+
         //4)启动线程
         thread.start();
         /**
