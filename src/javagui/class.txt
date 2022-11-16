@@ -1,0 +1,2 @@
+className= itheima4.Teacher
+methodName=teach
